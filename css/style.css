@@ -104,9 +104,3 @@ a {
   background-position: 10px 50%;
 }
 
-@font-face {
-  font-family: RalewayRegular;
-  src: url(../font/RalewayRegular/*) format(truetype);
-  font-style: normal;
-  font-size: normal;
-}
