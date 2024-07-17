@@ -3,6 +3,6 @@
 }
 
 body{
-  background: url(/img/maxresdefault.jpg) fixed no-repeat;
+  background: url(../img/maxresdefault.jpg) no-repeat;
   background-size: cover;
 }
