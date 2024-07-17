@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+
 .wrapper_head {
   border-radius: 50px;
   background-color: rgba(262, 262, 262, 0.192);
@@ -102,4 +103,11 @@ a {
   background: url(/icons/search_black.svg) no-repeat;
   background-size: 22px;
   background-position: 10px 50%;
+}
+
+@font-face {
+  font-family: RalewayRegular;
+  src: url(/font/RalewayRegular/*) format(truetype);
+  font-style: normal;
+  font-size: normal;
 }
