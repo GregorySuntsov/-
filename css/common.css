@@ -3,6 +3,7 @@
 }
 
 body{
-  background: url(../img/popcorn.jpg) no-repeat;
+  background: url(../img/popcorn.jpg) no-repeat fixed;
   background-size: cover;
+  height: 100%;
 }
