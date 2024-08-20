@@ -114,6 +114,7 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  gap: 10px;
 }
 
 .card{
@@ -122,8 +123,7 @@ a {
   border: 1px solid #996600;
   border-radius: 12px;
   position: relative;
-  margin-left: 15px;
-  margin-right: 15px;
+
 }
 
 .noga{
@@ -133,7 +133,6 @@ a {
   height: 80px;
   left: 0;
   bottom: 0;
-  background-color: aliceblue;
   background-color: rgba(262, 262, 262, 0.192);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(3.25px);
 }
