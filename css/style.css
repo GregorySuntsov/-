@@ -2,8 +2,7 @@
   box-sizing: border-box;
 }
 
-
-.wrapper_head {
+header{
   border-radius: 50px;
   background-color: rgba(262, 262, 262, 0.192);
   backdrop-filter: blur(4px);
@@ -11,6 +10,7 @@
   width: 97%;
   margin: 15px auto;
 }
+
 
 .wrapper {
   max-width: 1200px;
@@ -31,7 +31,7 @@
   position: relative;
 }
 
-img {
+#logo_fuck {
   height: 60px;
   width: 60px;
   border-radius: 50%;
@@ -125,15 +125,17 @@ a {
   width: 265px;
   height: 400px;
   border: 1px solid #996600;
-  background-image: url(/img/paraplan.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
   border-radius: 12px;
   position: relative;
   transition: opacity 0.45s ease;
+  overflow: hidden;
+
+  img{
+    width: 100%;
+  }
 }
 
-.noga{
+footer{
   position: absolute;
   position: fixed;
   width: 100%;
@@ -143,3 +145,4 @@ a {
   background-color: rgba(262, 262, 262, 0.192);
   backdrop-filter: blur(3.25px);
 }
+
