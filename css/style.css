@@ -114,15 +114,23 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  gap: 10px;
+  gap: 1rem;
+}
+
+.info_cards:hover > :not(:hover){
+  opacity: 0.5;
 }
 
 .card{
   width: 265px;
   height: 400px;
   border: 1px solid #996600;
+  background-image: url(/img/paraplan.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
   border-radius: 12px;
   position: relative;
+  transition: opacity 0.45s ease;
 }
 
 .noga{
